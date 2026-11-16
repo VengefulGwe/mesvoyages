@@ -10,6 +10,7 @@ namespace App\Controller\admin;
 use App\Repository\VisiteRepository;
 use App\Form\VisiteType;
 use App\Entity\Visite;
+use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
